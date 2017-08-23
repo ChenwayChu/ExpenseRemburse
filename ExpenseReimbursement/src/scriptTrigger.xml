@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<config>
+
+		<trigger>
+			<object>user</object>
+			<operate>add</operate>
+			<position>after</position>
+			<order>1</order>
+			<class>other.aiadbj.bjceeiejfekid.SynUserClass</class>
+		</trigger>
+
+
+		<trigger>
+			<object>user</object>
+			<operate>update</operate>
+			<position>after</position>
+			<order>1</order>
+			<class>other.aiadbj.bjceeiejfekid.SynUserClass</class>
+		</trigger>
+
+
+		<trigger>
+			<object>user</object>
+			<operate>delete</operate>
+			<position>after</position>
+			<order>1</order>
+			<class>other.aiadbj.bjceeiejfekid.SynUserClass</class>
+		</trigger>
+
+
+		<trigger>
+			<object>user</object>
+			<operate>user_disable</operate>
+			<position>after</position>
+			<order>1</order>
+			<class>other.aiadbj.bjceeiejfekid.SynUserClass</class>
+		</trigger>
+		
+		<trigger>
+			<object>user</object>
+			<operate>user_enable</operate>
+			<position>after</position>
+			<order>1</order>
+			<class>other.aiadbj.bjceeiejfekid.SynUserClass</class>
+		</trigger>
+
+		
+		<trigger>
+			<object>user</object>
+			<operate>user_departure</operate>
+			<position>after</position>
+			<order>1</order>
+			<class>other.aiadbj.bjceeiejfekid.SynUserClass</class>
+		</trigger>
+		
+		<trigger>
+			<object>user</object>
+			<operate>user_enable_departure</operate>
+			<position>after</position>
+			<order>1</order>
+			<class>other.aiadbj.bjceeiejfekid.SynUserClass</class>
+		</trigger>
+
+		<trigger>
+			<object>depart</object>
+			<operate>add</operate>
+			<position>after</position>
+			<order>1</order>
+			<class>other.aiadbj.bjceeiejfekid.SynDepartClass</class>
+		</trigger>
+
+		<trigger>
+			<object>depart</object>
+			<operate>update</operate>
+			<position>after</position>
+			<order>1</order>
+			<class>other.aiadbj.bjceeiejfekid.SynDepartClass</class>
+		</trigger>
+
+		<trigger>
+			<object>depart</object>
+			<operate>delete</operate>
+			<position>before</position>
+			<order>1</order>
+			<class>other.aiadbj.bjceeiejfekid.SynDepartClass</class>
+		</trigger>
+
+		<trigger>
+			<object>depart</object>
+			<operate>delete</operate>
+			<position>after</position>
+			<order>1</order>
+			<class>other.aiadbj.bjceeiejfekid.SynDepartClass</class>
+		</trigger>
+		
+	</config>
+</configs>
